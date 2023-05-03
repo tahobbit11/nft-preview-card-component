@@ -126,10 +126,10 @@
      /*Classes, Ids, etc */
 
      .content-wrapper {
-        width: 80%;
+        max-width: 350px;
         background-color: hsl(216, 50%, 16%);
         border-radius: 20px;
-        padding: 20px;
+        padding: 20px 20px 10px 20px;
         margin-top: 10%;
      }
 
@@ -287,8 +287,11 @@
      Modify as content requires.
      ========================================================================== */
   
-  @media only screen and (min-width: 35em) {
+  @media only screen and (min-width: 1200px) {
     /* Style adjustments for viewports that meet the condition */
+    .main-img {
+        height: 300px;
+    }
   }
   
   @media print,
